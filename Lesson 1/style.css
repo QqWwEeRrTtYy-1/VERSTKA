@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+}
+
+.main_header {
+	display: flex;
+	align-items: center;
+	background-color: #2e323f;
+	padding: 0 2rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.logo {
+	flex-grow: 1;
+	flex-basis: 0;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.header_menu {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.menu_container {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.menu_item {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.rounded {
+	background-color: #a59678;
+	padding: 0.25rem 1rem;
+	border-radius: 100px;
+	color: #FFF;
+}
+
+.section_first {
+	display: flex;
+	background-color: #3b4050;
+	padding: 9rem 5rem 9rem 2rem;
+}
+
+.section_first_left {
+	flex-basis: 0;
+	flex-grow: 2;
+	font-family: 'Oswald', sans-serif;
+	font-size: 90px;
+	color: #fff;
+	line-height: 6rem;
+}
+
+.text_dark {
+	color: #a59678;
+}
+
+.section_first_right{
+	margin-left: 2rem;
+	flex-basis: 0;
+	flex-grow: 3;
+	font-family: "Montt=serrat", sans-serif;
+	font-size: 24px;
+	color: #6F737F;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.section_first_right .rounded{
+	margin-top: 1rem;
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 1rem 3rem;
+	width: 167px;
+}
